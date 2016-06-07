@@ -12,7 +12,7 @@ class MissingArgumentError(Exception):
     def __init__(self):
         Exception.__init__(self, "MISSING ARGUMENTS TO PUT INTO THE DATABASE")
 
-
+# raises a custom typevalueerror
 class TypeValueError(Exception):
     def __init__(self, typeOf):
         self.__init__(self)
